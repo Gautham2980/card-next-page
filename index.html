@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Card-Filter</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="css/style.css">
+         <link rel="stylesheet" href="css/media.css">
+
+    </head>
+    <body>
+        <section id="filter-section">
+            <div class="filter-container">
+               <h3> Car -Sale</h3>
+                <!-- <div class="drop">
+                    <select class="select" id="car" onclick="display()">
+                        <optgroup label="cars"></optgroup>
+                        <option value="Hyundai" id="Hyundai" onclick="display()">Hyundai</option>
+                        <option value="Maruti" id="Maruti">Maruti</option>
+                        <option value="Tata" id="Tata">Tata</option>
+                        <option value="Honda" id="Honda">Honda</option>
+                        <option value="Mahindra" id="Mahindra">Mahindra</option>
+
+                    </select> -->
+
+                <!-- </div> --> 
+
+               
+
+            </div>
+
+        </section>
+        <section id="card-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col" id="Tatas">
+                        <div class="images">
+                            <img src="images/altroz.jpg">
+
+                        </div>
+                        <div class="details">
+                            <h1 class="heading">Altroz</h1>
+                            <p>Rs.6.6Lakh Onwards<br>
+                                Avg.Ex-showroom price</p>
+                                <div class="car-btn1">
+                                <button class="car1-btn" onclick="details(event)">Show Price in my City</button>
+                                </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <div class="images" id="Hondas">
+                            <img src="images/amaze.jpeg">
+
+                        </div>
+                        <div class="details">
+                            <h1 class="heading">Amaze</h1>
+                            <p>Rs.7.07Lakh onwards<br>
+                                Avg.Ex-showroom price
+                            </p>
+                            <div class="car-btn2">
+                                <button class="car2-btn" onclick="details(event)">Show Price in my City</button>
+                             </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <div class="images" id="Hondas">
+                            <img src="images/city.webp">
+
+                        </div>
+                        <div class="details">
+                            <h1 class="heading">city</h1>
+                            <p>Rs.11.60Lakh onwards<br>
+                                Avg.Ex-showroom price
+                            </p>
+                            <div class="car-btn3">
+                                <button class="car3-btn" onclick="details(event)">Show Price in my City</button>
+                             </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col" id="Hyundais">
+                        <div class="images" >
+                            <img src="images/venue.jpg">
+
+                        </div>
+                        <div class="details">
+                            <h1 class="heading">venue</h1>
+                            <p>Rs.7.70Lakh onwards<br>
+                                Avg.Ex-showroom price
+                            </p>
+                            <div class="car-btn5">
+                                <button class="car5-btn" onclick="details(event)">Show Price in my City</button>
+                             </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <div class="images" id="Mahindras">
+                            <img src="images/scorpion.webp">
+
+                        </div>
+                        <div class="details">
+                            <h1 class="heading">scorpion</h1>
+                            <p>Rs.13.00Lakh onwards<br>
+                                Avg.Ex-showroom price
+                            </p>
+                            <div class="car-btn4">
+                                <button class="car4-btn" onclick="details(event)">Show Price in my City</button>
+                             </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <div class="images" id="Mahindras">
+                            <img src="images/thar.webp">
+
+                        </div>
+                        <div class="details">
+                            <h1 class="heading">Thar</h1>
+                            <p>Rs.10.55Lakh onwards<br>
+                                Avg.Ex-showroom price
+                            </p>
+                            <div class="car-btn6">
+                                <button class="car6-btn" onclick="details(event)">Show Price in my City</button>
+                             </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <div class="images" id="Tatas">
+                            <img src="images/nexon.webp">
+
+                        </div>
+                        <div class="details">
+                            <h1 class="heading">Nexon</h1>
+                            <p>Rs.7.80Lakh onwards<br>
+                                Avg.Ex-showroom price
+                            </p>
+                            <div class="car-btn7">
+                                <button class="car7-btn" onclick="details(event)">Show Price in my City</button>
+                             </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <div class="images" id="Maruti">
+                            <img src="images/fronx.webp">
+
+                        </div>
+                        <div class="details">
+                            <h1 class="heading">Fronx</h1>
+                            <p>Rs.7.47Lakh onwards<br>
+                                Avg.Ex-showroom price
+                            </p>
+                            <div class="car-btn8">
+                                <button class="car8-btn" onclick="details(event)">Show Price in my City</button>
+                             </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <div class="images" id="Hyundai">
+                            <img src="images/exter.webp">
+
+                        </div>
+                        <div class="details">
+                            <h1 class="heading">Exter</h1>
+                            <p>Rs.6.00Lakh onwards<br>
+                                Avg.Ex-showroom price
+                            </p>
+                            <div class="car-btn9">
+                                <button class="car9-btn" onclick="details(event)">Show Price in my City</button>
+                             </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <script src="js/main.js"></script>
+
+    </body>
+
+</html>

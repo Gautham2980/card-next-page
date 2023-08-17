@@ -1,0 +1,17 @@
+@media(min-width:320px){
+    .col{
+        width: 100%;}
+
+
+}
+
+@media(min-width:660px){
+    .col{
+        width: 100%;}
+
+}
+
+@media(min-width:960px){
+    .col{
+        width: 30%;}
+}

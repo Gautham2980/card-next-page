@@ -1,0 +1,29 @@
+@media(min-width:320px){
+    .det-col{
+        width: 100%;}
+        .det-card{
+            display: flex;
+            flex-wrap: wrap;
+        }
+}
+
+        
+
+    
+
+@media(min-width:660px){
+    .det-col{
+        width: 100%;}
+        .det-card{
+            display: flex;
+            flex-wrap: wrap;
+        }
+}
+
+@media(min-width:960px){
+    .det-col{
+        width: 60%;}
+        .det-card{
+            display: flex;
+        }
+}
